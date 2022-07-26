@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+body {
+    background-image: url("red.png");
+    background-size: cover;
+    
+}
+
+.main h1 {
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    text-align: center;
+}
+li a {
+    text-decoration-style: none;
+    list-style-type: none;
+}
+.right {
+    display: flex;
+    gap: 25px;
+    color: white;
+    text-decoration-style: none;
+    list-style-type: none;
+
+
+}
+.right li, .left li {
+    text-decoration-style: none;
+    list-style-type: none;
+}
+.left {
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+    padding: 0px;
+    
+}
+
+h1 {
+    position: relative;
+font-weight: 700;
+font-size: 10em;
+left: 3.3em;
+top: 1em;
+letter-spacing: 1.3rem  ;
+}
+
+.social
+{
+    position: relative;
+gap: 45px;
+ display: flex;   
+ align-items: center;
+ left: 17em;
+
+ 
+}
+.social li
+{
+  list-style: none;
+}
+.social li a
+{
+  
+  
+  
+  transform: scale(0.5);
+  transition: 0.5s;
+}
+.social li a img:hover
+{
+  transform: scale(1.5) translateY(15px);
+}
+
+
+.social img {
+    width: 3em;
+    
+    
+}
+.social a {
+position: relative;
+left: -60px;
+top: 275px;
+gap: 0px;
+}
+
+.main {
+    display: flex;
+}
+a {
+    text-decoration-style: none;
+    list-style-type: none;
+}
